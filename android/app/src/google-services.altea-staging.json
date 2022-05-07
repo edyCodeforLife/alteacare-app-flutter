@@ -1,0 +1,262 @@
+{
+  "project_info": {
+    "project_number": "995417312398",
+    "project_id": "webrtc-demo-101fc",
+    "storage_bucket": "webrtc-demo-101fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995417312398:android:343d0621ff6af90d7b8ddf",
+        "android_client_info": {
+          "package_name": "com.alteacare.app.lite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995417312398-6nl12vjs5v0i9tk2bir3af5q0r2oalqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzQOWp0ihvp3sdJpgtIv8awqVg0KfphVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995417312398-6nl12vjs5v0i9tk2bir3af5q0r2oalqs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995417312398-20do9sir4o9fk33d9g44l8llbnkc4kj9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alteacare.app.lite"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995417312398:android:c96f8fb8d36b80527b8ddf",
+        "android_client_info": {
+          "package_name": "com.alteacare.app.lite.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995417312398-6nl12vjs5v0i9tk2bir3af5q0r2oalqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzQOWp0ihvp3sdJpgtIv8awqVg0KfphVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995417312398-6nl12vjs5v0i9tk2bir3af5q0r2oalqs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995417312398-20do9sir4o9fk33d9g44l8llbnkc4kj9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alteacare.app.lite"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995417312398:android:6c56a60752873b5b7b8ddf",
+        "android_client_info": {
+          "package_name": "com.example.web_rtc_recode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995417312398-6nl12vjs5v0i9tk2bir3af5q0r2oalqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzQOWp0ihvp3sdJpgtIv8awqVg0KfphVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995417312398-6nl12vjs5v0i9tk2bir3af5q0r2oalqs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995417312398-20do9sir4o9fk33d9g44l8llbnkc4kj9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alteacare.app.lite"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995417312398:android:f2768ad09cc1851a7b8ddf",
+        "android_client_info": {
+          "package_name": "com.teleon.main"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995417312398-6nl12vjs5v0i9tk2bir3af5q0r2oalqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzQOWp0ihvp3sdJpgtIv8awqVg0KfphVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995417312398-6nl12vjs5v0i9tk2bir3af5q0r2oalqs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995417312398-20do9sir4o9fk33d9g44l8llbnkc4kj9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alteacare.app.lite"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995417312398:android:c32b441787e487537b8ddf",
+        "android_client_info": {
+          "package_name": "id.co.sprout.altea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995417312398-6nl12vjs5v0i9tk2bir3af5q0r2oalqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzQOWp0ihvp3sdJpgtIv8awqVg0KfphVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995417312398-6nl12vjs5v0i9tk2bir3af5q0r2oalqs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995417312398-20do9sir4o9fk33d9g44l8llbnkc4kj9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alteacare.app.lite"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995417312398:android:ed16f0d0c9ab434c7b8ddf",
+        "android_client_info": {
+          "package_name": "id.co.sprout.telecon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995417312398-6nl12vjs5v0i9tk2bir3af5q0r2oalqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzQOWp0ihvp3sdJpgtIv8awqVg0KfphVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995417312398-6nl12vjs5v0i9tk2bir3af5q0r2oalqs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995417312398-20do9sir4o9fk33d9g44l8llbnkc4kj9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alteacare.app.lite"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995417312398:android:fad432970fa245797b8ddf",
+        "android_client_info": {
+          "package_name": "id.co.sprout.webrct.webrct_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995417312398-6nl12vjs5v0i9tk2bir3af5q0r2oalqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzQOWp0ihvp3sdJpgtIv8awqVg0KfphVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995417312398-6nl12vjs5v0i9tk2bir3af5q0r2oalqs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995417312398-20do9sir4o9fk33d9g44l8llbnkc4kj9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alteacare.app.lite"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

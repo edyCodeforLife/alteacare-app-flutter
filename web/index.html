@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/" />
+
+  <meta charset="UTF-8" />
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+  <meta name="description" content="This is a web for Altea Care" />
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="Altea Care" />
+  <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+  <title>Altea Care</title>
+  <link rel="manifest" href="manifest.json" />
+</head>
+
+<body>
+  <!-- The core Firebase JS SDK is always required and must be listed first
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script> -->
+
+  <!-- <script> -->
+  <!-- // Your web app's Firebase configuration // For Firebase JS SDK v7.20.0 and
+    later, measurementId is optional -->
+  <!-- var firebaseConfig = {
+        apiKey: "AIzaSyBcGVyNggCh-WlcvbZWbXzEJNT0yBntq2U",
+        authDomain: "altea-dev.firebaseapp.com",
+        projectId: "altea-dev",
+        storageBucket: "altea-dev.appspot.com",
+        messagingSenderId: "32490778438",
+        appId: "1:32490778438:web:6ce2b36367b698399e3f47",
+        measurementId: "G-G4XJZBNCGC",
+      }; -->
+  <!-- // Initialize Firebase -->
+  <!-- firebase.initializeApp(firebaseConfig); -->
+  <!-- firebase.analytics(); -->
+  <!-- </script> -->
+
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+
+  <!-- Below is the config for the web rtc demo -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+   
+    // ? INI DEVELOPMENT
+    // const firebaseConfig = {
+    //   apiKey: "AIzaSyAl9f5Egc7LsXbhOESjiVfIrmyjX4MrSIM",
+    //   authDomain: "dev-webrtc-altea.firebaseapp.com",
+    //   projectId: "dev-webrtc-altea",
+    //   storageBucket: "dev-webrtc-altea.appspot.com",
+    //   messagingSenderId: "398338834926",
+    //   appId: "1:398338834926:web:6a182998242296877c8eff"
+    // };
+
+    // ? INI STAGING
+    // const firebaseConfig = {
+    //   apiKey: "AIzaSyDRTKKADadwlSycEsfs71CC9soj6ZiCupE",
+    //   authDomain: "webrtc-demo-101fc.firebaseapp.com",
+    //   projectId: "webrtc-demo-101fc",
+    //   storageBucket: "webrtc-demo-101fc.appspot.com",
+    //   messagingSenderId: "995417312398",
+    //   appId: "1:995417312398:web:267d6373358c64177b8ddf",
+    //   measurementId: "G-PMXJ53LDKZ",
+    // };
+
+    //? INI PROD
+    const firebaseConfig = {
+      apiKey: "AIzaSyDmO9nKahdt8FyzHz4Po5oL2sC1axosfeg",
+      authDomain: "prod-webrtc-altea.firebaseapp.com",
+      projectId: "prod-webrtc-altea",
+      storageBucket: "prod-webrtc-altea.appspot.com",
+      messagingSenderId: "597268223377",
+      appId: "1:597268223377:web:761c485965dcf2cd7e7630",
+      measurementId: "G-3LNTFSSJCY"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
+  <!-- one signal setup -->
+  <!-- <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      var initConfig = {
+        appId: "c1734709-1a84-4b28-9b1d-486c41ca5313",
+        notifyButton: {
+          enable: true,
+        },
+      };
+
+      OneSignal.push(function () {
+        // OneSignal.init({
+        //   appId: "99ca8955-02c8-4f36-8aad-446f9d75c1c0", // App ID from OneSignal altea-dev
+        // });
+        // OneSignal.showNativePrompt();
+        OneSignal.SERVICE_WORKER_PATH = "../web/OneSignalSDKWorker.js";
+        OneSignal.SERVICE_WORKER_UPDATER_PATH =
+          "../web/OneSignalSDKUpdaterWorker.js";
+        OneSignal.init(initConfig);
+      });
+    </script> -->
+
+  <!-- !one signal setup still not done yet -->
+
+  <!-- one_signal_client_id_prod="99ca8955-02c8-4f36-8aad-446f9d75c1c0"
+one_signal_client_id_dev="c1734709-1a84-4b28-9b1d-486c41ca5313"
+
+ -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("flutter-first-frame", function () {
+        navigator.serviceWorker.register("flutter_service_worker.js");
+        // navigator.serviceWorker.register("OneSignalSDKWorker.js");
+        // navigator.serviceWorker.register("OneSignalSDKUpdaterWorker.js");
+      });
+    }
+  </script>
+  <script src="main.dart.js?version=kmzway-8" type="application/javascript"></script>
+</body>
+
+</html>

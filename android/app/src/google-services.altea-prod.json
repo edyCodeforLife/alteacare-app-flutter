@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "597268223377",
+    "project_id": "prod-webrtc-altea",
+    "storage_bucket": "prod-webrtc-altea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597268223377:android:e463dd95df1a95687e7630",
+        "android_client_info": {
+          "package_name": "com.alteacare.app.lite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597268223377-6krlldq8t5efoiv5h9vd5kcrm2fhk40j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJslA-cHFjK0s_KnjEaz6KGDDcdiJpgwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597268223377-6krlldq8t5efoiv5h9vd5kcrm2fhk40j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
